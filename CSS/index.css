@@ -1,0 +1,25 @@
+.apple {
+    border: solid 5px  rgb(255, 0, 0); 
+    border-radius: 10px ; 
+    background-color: lime;
+}
+.pear {
+    border: solid 5px  rgb(0, 0, 0); 
+    border-radius: 10px;
+    background-color: white;
+}
+.bird {
+    border: solid 5px  rgb(0, 0, 0); 
+    border-radius: 10px;
+    background-color: lime;
+}
+.dog {
+    border: solid 5px  rgb(0, 0, 255); 
+    border-radius: 10px;
+    background-color: lime;
+}
+.human {
+    border: solid 5px  rgb(183, 0, 255); 
+    border-radius: 10px;
+    background-color: rgb(200, 255, 0);
+}

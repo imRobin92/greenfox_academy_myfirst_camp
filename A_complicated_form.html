@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/A_complicated_form.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Interesting application form</legend>
+            <fieldset>
+                <legend>What is your name? </legend>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <legend>What is your favorite color?</legend>
+                <input type="checkbox" name="color" id="red">
+                <label for="red">Red</label>
+                <br>
+                <input type="checkbox" name="color" id="green">
+                <label for="green">Green</label>
+                <br>
+                <input type="checkbox" name="color" id="blue">
+                <label for="blue">Blue</label>
+                <br>
+                <input type="checkbox">
+                <label for="other">Other</label>
+                <input type="text" name="color" id="other">
+            </fieldset>
+            <fieldset>
+                <legend>Would you be like to become a developer?</legend>
+                <input type="radio" id="yes" name="developer">
+                <label for="yes">Yes</label>
+                <br>
+                <input type="radio" id="no" name="developer">
+                <label for="no">No</label>
+                <br>
+                <input type="radio" id="maybe" name="developer">
+                <label for="maybe">Maybe</label>
+                <br>
+                <input type="radio" id="notYet" name="developer">
+                <label for="notYet"> Not yet</label>
+            </fieldset>
+            <fieldset>
+                <legend>Why would you be like to become a developer?</legend>
+                <textarea name="why" id="why" cols="30" rows="10"></textarea>
+            </fieldset>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>

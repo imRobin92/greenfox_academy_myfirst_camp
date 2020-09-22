@@ -1,0 +1,31 @@
+div {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+input {
+    border: solid 3px lime;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding: 15px;
+}
+
+button {
+    text-transform: uppercase;
+    border: solid 3px lime;
+    background-color: lime;
+    padding: 15px;
+    box-shadow: 2px 2px black ;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
